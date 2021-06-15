@@ -1,0 +1,452 @@
+body{
+	background: #1d262d;
+}
+p, li, a, i, span{
+	color: #fff;
+}
+footer section{
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	border-radius: 2px;
+	margin: 20px;
+}
+.footer-post {
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.wnarde{
+	background-image:  url('../../assets/about/wagverse.png') ;
+	background-position: center top;
+	background-repeat:no-repeat;
+	background-color: #1b2933;
+}
+#banner0{
+	background: linear-gradient(180deg, #1b2933 7.29%, #4A4970 100%);
+}
+#banner1{
+	background: 
+	url('../../assets/banners/C_4.png'),
+	linear-gradient(180deg, #81147C 0%,  #1b2933 100%);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+#banner2{
+	background: linear-gradient(180deg, #3C313D 0%, #7C7BBA 100%);
+}
+#banner3{
+	background: 
+	url('../../assets/banners/D_3.png'),
+	linear-gradient(180deg, #B8CDAE 0.01%, #7444B5 52.6%, #1d262d 100%);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+#banner4{
+	background-color: #1b2933;
+	background: linear-gradient(180deg, #6E3EA5 0%, #1d262d 100%);
+}
+#banner5{
+	background: linear-gradient(357.38deg, rgba(0, 0, 0, 0) 1.11%, rgba(147, 51, 51, 0.5) 49.73%, #A93B3B 101.49%);
+	background-color: #1b2933;
+}
+
+#banner1post{
+	background:
+	url(../../../assets/banners/C_4.png),
+	linear-gradient(180deg, #81147C 0%,  #1b2933 64%);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+#banner2post{
+	background: linear-gradient(180deg, #3C313D 0%, #7C7BBA 6%,  #7C7BBA 15%, #1D262D 27%);
+}
+#banner5post{
+	background:linear-gradient(180deg, rgba(0, 0, 0, 0) 23.51%, #1C2A33 50%), linear-gradient(334.33deg, #E27266 1.35%, #E27266 23.47%, #E27266 44.31%)
+}
+
+/*nav*/
+.nav-search input{
+	background: #fff;
+	color: #1D262D;
+	background-image: url('../../assets/search.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-origin:content-box;
+}
+.nav-search input:focus{
+	outline: none;
+	background-color: #1d262d;
+	background-image: url('../../assets/searchB.png');
+
+	color: #fff;
+}
+.nav-search button{
+	background: #fff;
+	background-image: url('../../assets/filter.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.nav-search input:focus + button{
+	background: #1d262d;
+	background-image: url('../../assets/filterB.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.back-nav{
+	background: #fff;
+	color: #1d262d;
+	border: 2px solid #1D262D;
+}
+.back-nav a{
+	color: #1d262d;
+}
+.back-nav li{
+	color: #1d262d;
+}
+.back-nav span{
+	color: #1d262d;
+}
+.back-nav p{
+	color: #1d262d;
+}
+.icon-close{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+	padding: 7px;
+}
+.nav-search input, .nav-search button {
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+}
+#logo{
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11);
+}
+.footer-end a{
+	color:#fff;
+}
+/*titles*/
+.orange-title{
+	margin-top:30px;
+	color: #98FBAE; 
+}
+.orange-sub-title{
+	margin-top:30px;
+	font-weight: bold;
+	color: #98FBAE;
+}
+.gold-title{
+	font-size: 25px;
+	line-height: 34px;
+	margin-bottom: 14px;
+	color: #FFF3B6;
+}
+.post-notes h5{
+	margin-bottom: 14px;
+	color: #98FBAE;
+}
+.post-notes span{
+	color: #98FBAE;
+}
+.home-post p{
+	color:#FCF9F7;
+}
+.post-date p, .post-date span{
+	color: #939393;
+}
+.footer-post > section > div > div:nth-child(1){
+	border-bottom: 0.5px dashed #fff;
+	box-sizing: border-box;
+}
+.footer-post-links a{
+	color: #fff;
+}
+.footer-start, .footer-time{
+	border-color: #fff;
+}
+.post-type{
+	color: #fff;
+}
+.icon-fix{
+	color: transparent !important;
+}
+.back-nav > ul > li > span{
+	width: 36px;
+	margin-left:0px;
+}
+
+.psico1, .psico2{
+	position: absolute;
+	width: 527px;
+	height: 214px;
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 111%;
+	color: #FAF5F1;
+}
+
+.rocket1 , .rocket2{
+	position: absolute;
+	width: 800px;
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 111%;
+	color: #fff;
+}
+
+.code1, .code2{
+	position: absolute;
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 107px;
+	color: #C6007D;
+}
+.code2{
+	color: #4577ff;
+}
+
+.cto1{
+	position: absolute;
+	width: 270px;
+	font-family: Charter;
+	font-style: normal;
+	font-size: 80px;
+	line-height: 120%;
+	color: #FFDF9C;
+}
+.gatlin1{
+	position: absolute;
+	width: 500px;
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 107px;
+	color: #FFF3B6;
+}
+.timezone1{
+	position: absolute;
+	font-family: Charter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 88px;
+	line-height: 107px;
+	color: #B0FBBC ;
+	text-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3);
+}
+.timezone2{
+	color: #82F9A1;
+	font-weight: bold;
+}
+.remoto2, .remoto1{
+	position: absolute;
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 111%;
+	color: #FFE7FB;
+}
+.remoto1 span, .remoto2 span{
+	color: #FFE7FB;
+}
+.timezone2 span{
+	color: #82F9A1;
+}
+.gatlin1 span{
+	color: #FFF3B6;
+}
+.rocket2 span, .rocket1 span{
+	color: #44427E;
+}
+
+.back-nav > ul > li > span{
+	margin :0;
+}
+.logo_svg{
+	filter: invert(94%) sepia(94%) saturate(0%) hue-rotate(189deg) brightness(105%) contrast(107%);
+}
+
+.job-card{
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Open Sans;
+	font-style: normal;
+}
+.multi-line{
+	border-bottom: 0.5px dashed #fff;
+	box-sizing: border-box;
+}
+.job-card-title{
+	flex: 1;
+	margin: 0 0 0 16px;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.job-card-links a{
+	margin: 0 0 0 12px;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #fff;
+}
+.job-card-info{
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #fff; 
+}
+.p-wnarde{
+	color: #fff;
+}
+.black-title{
+	color: #fff;
+}
+a:-webkit-any-link {
+	color:#fff;
+}
+
+.audio-div{
+	height: 99px;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.audio-div .player{
+	display: flex;
+	padding: 12px;
+	border-bottom: 0.5px dashed #fff;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+.media-bar{
+	margin-top: 2px;
+	width: 80%;
+	height: 5px;
+	background:#C16071
+}
+.media-bar span{
+	padding: 1px 9px;
+	background: #fff;
+	border-radius: 50%; 
+	position: relative;
+	bottom:6px;
+	left:4px;
+}
+.info .emb{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+
+	color: #fff; 
+}
+.audio-div img{
+	filter: invert(94%) sepia(94%) saturate(0%) hue-rotate( 
+	189deg
+	) brightness(105%) contrast(107%);
+}
+.about-podcast p{
+	color:#fff;
+}
+.slin{
+	color: #fff;
+}
+@media only screen and (max-width: 868px) {
+	#banner1{
+		background: 
+		url('../../assets/C_4_M.png'),
+		linear-gradient(180deg, #81147C 0%,  #1b2933 100%);
+		background-position: center top;
+	}
+
+	.wnarde{
+		background-image:  url('../../assets/about/wagverse_m.png') ;
+		background-position: center top;
+		background-repeat:no-repeat;
+		background-color: #1b2933;
+	}
+	.psico2{
+		position: absolute;
+		font-family: Charter;
+		font-style: normal;
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.psico1{
+		position: absolute;
+		width: 527px;
+		font-family: Charter;
+		font-style: normal;
+		font-size: 44px;
+		line-height: 54px;
+	}
+
+	.rocket1 , .rocket2{
+		position: absolute;
+		width: 270px;
+		font-family: Charter;
+		font-style: normal;
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.code1, .code2{
+		position: absolute;
+		font-family: Charter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 44px;
+		line-height: 54px;
+	}
+
+	.code2{
+		color: #4577ff;
+	}
+	.cto1, .cto2{
+		position: absolute;
+		width: 220px;
+		font-family: Charter;
+		font-style: normal;
+		font-size: 40px;
+		line-height: 54px;
+	}
+	.gatlin1{
+		position: absolute;
+		width: 220px;
+		font-family: Charter;
+		font-style: normal;
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.timezone2{
+		position: absolute;
+		font-family: Charter;
+		font-style: normal;
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.timezone1{
+		position: absolute;
+		font-family: Charter;
+		font-style: normal;
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.remoto2, .remoto1{
+		position: absolute;
+		font-family: Charter;
+		font-style: normal;
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.footer-post-end p, .footer-post-time p {
+		color: #fff;
+	}
+}

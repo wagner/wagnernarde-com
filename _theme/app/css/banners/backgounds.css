@@ -1,0 +1,51 @@
+#banner0{
+	background: linear-gradient(#FFF1FD 0%, #E0E4E6 42.19%, #7C7BBA 100%);
+}
+#banner1{
+	background: url('../../../assets/banners/C_4.png'), linear-gradient(180deg, #F6F2FF 0%, #9C1997 100%);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+#banner2{
+	background: linear-gradient(180deg, #FBFFF1 0%, #E0E4E6 36.46%, #7C7BBA 100%);
+}
+#banner3{
+	background: 
+		url('../../../assets/banners/D_3.png'),
+		linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
+		linear-gradient(180deg, #C9FF56 0%, #937DB0 100%);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+#banner4{
+	background: linear-gradient(180deg, #8FC3FF 0%, #974AF8 100%);
+}
+#banner5{
+	background: linear-gradient(334.33deg, #E27266 3.35%, #FAA779 47.47%, #DA6060 82.03%);
+}
+.banner0{
+	background: linear-gradient(180deg, #7C7BBA 0%, rgba(255, 241, 253, 0.41) 65.87%, rgba(255, 241, 253, 0) 117.34%);
+}
+.banner2{
+	background: linear-gradient(180deg, #FBFFF1 0%, #E0E4E6 36.46%, #7C7BBA 100%);
+}
+.banner4{
+	background: linear-gradient(180deg, #8FC3FF 0%, #974AF8 100%);
+}
+.banner5{
+	background: linear-gradient(334.33deg, #E27266 3.35%, #FAA779 47.47%, #DA6060 82.03%);
+}
+@media only screen and (max-width: 868px) {
+	#banner1{
+		background: url('../../../assets/banners/C_4_M.png'), linear-gradient(180deg, #F6F2FF 0%, #9C1997 100%);
+		background-position: center top;
+	}
+	#banner3{
+		background:
+		url('../../../assets/banners/code.png'),
+		linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(180deg, #C9FF56 0%, #937DB0 100%);
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}

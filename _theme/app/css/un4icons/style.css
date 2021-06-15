@@ -1,0 +1,106 @@
+@font-face {
+  font-family: 'un4icons';
+  src:  url('fonts/un4icons.eot?34nikt');
+  src:  url('fonts/un4icons.eot?34nikt#iefix') format('embedded-opentype'),
+    url('fonts/un4icons.ttf?34nikt') format('truetype'),
+    url('fonts/un4icons.woff?34nikt') format('woff'),
+    url('fonts/un4icons.svg?34nikt#un4icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'un4icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-media_articles:before {
+  content: "\e906";
+}
+.icon-media_videos:before {
+  content: "\e908";
+}
+.icon-media_podcasts:before {
+  content: "\e907";
+}
+.icon-cat_infra:before {
+  content: "\e916";
+}
+.icon-cat_software:before {
+  content: "\e902";
+}
+.icon-cat_mgmt:before {
+  content: "\e900";
+}
+.icon-cat_security:before {
+  content: "\e901";
+}
+.icon-day:before {
+  content: "\e905";
+}
+.icon-night:before {
+  content: "\e90a";
+}
+.icon-prev:before {
+  content: "\e90f";
+}
+.icon-next:before {
+  content: "\e909";
+}
+.icon-recent_b:before {
+  content: "\e910";
+}
+.icon-recent_w:before {
+  content: "\e911";
+}
+.icon-copycode:before {
+  content: "\e904";
+}
+.icon-tag:before {
+  content: "\e915";
+}
+.icon-podcast_spotify:before {
+  content: "\e90e";
+}
+.icon-podcast_itunes:before {
+  content: "\e90d";
+}
+.icon-podcast_deezer:before {
+  content: "\e90b";
+}
+.icon-podcast_google:before {
+  content: "\e90c";
+}
+.icon-social_git:before {
+  content: "\e912";
+}
+.icon-social_in:before {
+  content: "\e913";
+}
+.icon-social_tw:before {
+  content: "\e914";
+}
+.icon-close:before {
+  content: "\e903";
+}

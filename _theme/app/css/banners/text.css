@@ -1,0 +1,133 @@
+.psico2{
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 107px;
+	color: #B3384A;
+}
+
+.psico1{
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 107px;
+	color: #B3384A;
+}
+
+.rocket1 , .rocket2{
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 111%;
+	color: #44427E;
+}
+.code1, .code2{
+	font-family: Charter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 88px;
+	line-height: 107px;
+	color: #89135E;
+}
+
+.code2{
+	color: #4577ff;
+}
+.cto1{
+	font-family: Charter;
+	font-style: normal;
+	font-weight:bold;
+	font-size: 80px;
+	line-height: 120%;
+	color: #523472;
+}
+.cto1 span{
+	color: #d92869;
+	font-weight:bold;
+}
+.gatlin1{
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 107px;
+	color: #FFF3B6;
+}
+.timezone2{
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 107px;
+	color: #FFC1AB;
+}
+.timezone1{
+	font-family: Charter;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 107px;
+	color: #EE7B52;
+}
+.remoto2, .remoto1{
+	font-family: Charter;
+	font-style: normal;
+	font-size: 88px;
+	line-height: 111%;
+	color: #3D3D3D;
+}
+.remoto3{
+	font-family: Charter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 88px;
+	line-height: 111%;
+	color: #3D3D3D;
+}
+@media only screen and (max-width: 868px) {
+	/*hidden desktop*/
+	.dk{
+		display:none;
+	}
+	.psico2{
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.psico1{
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.rocket1 , .rocket2{
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.code1, .code2{
+		font-size: 44px;
+		line-height: 54px;
+	}
+
+	.cto1{
+		font-size: 40px;
+		line-height: 54px;
+	}
+	.gatlin1{
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.timezone2{
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.timezone1{
+		font-size: 44px;
+		line-height: 54px;
+	}
+	.remoto2, .remoto1{
+		font-size: 44px;
+		line-height: 54px;
+	}
+}
+@media only screen and (max-height: 680px) {
+	.remoto2, .remoto1{
+		font-size: 40px;
+		line-height: 44px;
+	}
+}
