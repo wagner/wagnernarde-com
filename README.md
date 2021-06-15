@@ -1,3 +1,9 @@
-# blargh
+# wagnernarde-com
 
-Meu blog pessoal.
+## Desenvolvimento
+
+Executando localmente:
+
+```
+bundle exec jekyll serve
+```
