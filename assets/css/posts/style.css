@@ -97,7 +97,7 @@ footer section {
 }
 
 
-.p-wnarde{
+.p-about{
 	font-family: Georgia;
 	font-style: normal;
 	font-weight: normal;
@@ -304,8 +304,8 @@ main a:-webkit-any-link , footer a:-webkit-any-link{
 .post-content{
 	z-index: 1;
 }
-.wnarde{
-	background-image:  url('/assets/images/banners/wnarde.png') ;
+.about{
+	background-image:  url('/assets/images/banners/about.png') ;
 	background-position: center top;
 	background-repeat:no-repeat;
 	background-color: #FBFFF1;

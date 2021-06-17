@@ -39,14 +39,6 @@ const fakeJson = {
 				content.backFromClean()
 			})
 		})
-		document.querySelector('#logo').
-			addEventListener('click', function (event) {
-				content.showClearPage('wnarde')
-				$.get('post/wnarde.html')
-					.done(function(resp) {
-						document.querySelector('#post').innerHTML = resp
-					})
-			})
 	}
 }
 export default fakeJson

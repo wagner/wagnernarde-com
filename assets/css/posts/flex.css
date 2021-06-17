@@ -85,11 +85,11 @@ body{
 	margin-top:40px;
 	justify-content: center;
 }
-.imgs-wnarde{
+.imgs-about{
 	justify-content: space-between;
 	margin: 20px 0;
 }
-.imgs-wnarde img, .imgs-smart img{
+.imgs-about img, .imgs-smart img{
 	height: 100%;
 	width: auto;
 }
@@ -317,7 +317,7 @@ body{
 	.about-social i{
 		margin-left: 32px;
 	}
-	.wnarde .post-content{
+	.about .post-content{
 		margin-top: 224px;
 	}
 	/*job-card*/
@@ -344,7 +344,7 @@ body{
 	.job-card{
 		margin: 44px 0;
 	}
-	.imgs-wnarde{
+	.imgs-about{
 		justify-content: space-between;
 		margin: 20px 0;
 	}

@@ -15,7 +15,7 @@ footer section{
 	box-sizing: border-box;
 	border-radius: 2px;
 }
-.wnarde{
+.about{
 	background-image:  url('/assets/images/about/wagverse.png') ;
 	background-position: center top;
 	background-repeat:no-repeat;
@@ -301,7 +301,7 @@ footer section{
 	text-transform: uppercase;
 	color: #fff; 
 }
-.p-wnarde{
+.p-about{
 	color: #fff;
 }
 .black-title{
@@ -367,7 +367,7 @@ a:-webkit-any-link {
 		background-position: center top;
 	}
 
-	.wnarde{
+	.about{
 		background-image:  url('/assets/images/about/wagverse_m.png') ;
 		background-position: center top;
 		background-repeat:no-repeat;

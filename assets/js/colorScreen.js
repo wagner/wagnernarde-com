@@ -3,7 +3,7 @@ var colorScreen = {
 
 	setNightScreen: function () {
 		colorScreen.link = document.createElement("link");
-		colorScreen.link.href = "app/css/night.css"
+		colorScreen.link.href = "/assets/css/night.css"
 		colorScreen.link.type = "text/css";
 		colorScreen.link.rel = "stylesheet";
 		colorScreen.link.media = "screen,print";
