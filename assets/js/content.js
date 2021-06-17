@@ -147,8 +147,8 @@ var content = {
 		var rArrow = document.querySelector('.tright')
 		if (isPost) {
 			if (window.screen.availWidth > 868) {
-				lArrow.style.opacity = 0
-				rArrow.style.opacity = 0
+				lArrow.style.display = 'none'
+				rArrow.style.display = 'none'
 				lArrow.style.top = '64%'
 				rArrow.style.top = '64%'
 			} 
@@ -158,8 +158,8 @@ var content = {
 		if (window.screen.availWidth > 868) {
 			lArrow.style.top = '15%'
 			rArrow.style.top = '15%'
-			lArrow.style.opacity = 1
-			rArrow.style.opacity = 1
+			lArrow.style.display = true
+			rArrow.style.display = true
 		}
 	},
 

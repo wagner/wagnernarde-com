@@ -65,8 +65,8 @@ const change = {
 			change.canChange = true
 		}, 10)
 	},
-	appendNewBanner: function (isPrevius) {
-		if (isPrevius) {
+	appendNewBanner: function (isPrevious) {
+		if (isPrevious) {
 			var nextBanner = create.one(change.currentBanner - 1, true, true)
 			var banner = document.querySelector(`#banner${change.currentBanner}`)
 			if (nextBanner) {
@@ -81,8 +81,8 @@ const change = {
 			return nextBanner
 		}
 	},
-	destroyBanner: function (isPrevius) {
-		if (isPrevius) {
+	destroyBanner: function (isPrevious) {
+		if (isPrevious) {
 			var banner = document.querySelector(`#banner${change.currentBanner}`)
 			if (banner)
 				banner.remove()

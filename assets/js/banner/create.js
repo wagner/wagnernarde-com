@@ -19,10 +19,9 @@ const create = {
 		bannerContent.style.width = '200%'
 		var banner = create.one(0, false)
 		bannerContent.append(banner)
-		document.body.className = `banner0`
 		movement.init()
 	},
-	one: function (pos, isPrevius) {
+	one: function (pos, isPrevious) {
 		if (pos < 0) {
 			pos = allLayers.length - 1
 		}
@@ -32,7 +31,7 @@ const create = {
 
 		var banner = bannerLayers.init(create.allL[pos], pos)
 		banner.id = `banner${pos}`
-		banner.style.width = (isPrevius) ? '0%' : '50%'
+		banner.style.width = (isPrevious) ? '0%' : '50%'
 		banner.style.zIndex = 1
 		banner.style.position = 'relative'
 		banner.dataset.pos = pos
