@@ -11,7 +11,7 @@
 }
 #banner3{
 	background: 
-		url('/assets/images//banners/D_3.png'),
+		url('/assets/images/banners/D_3.png'),
 		linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),
 		linear-gradient(180deg, #C9FF56 0%, #937DB0 100%);
 	background-position: top;

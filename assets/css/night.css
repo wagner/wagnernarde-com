@@ -52,7 +52,7 @@ footer section{
 
 #banner1post{
 	background:
-	url(/assets/images/banners/C_4.png),
+	url(..//assets/images/banners/C_4.png),
 	linear-gradient(180deg, #81147C 0%,  #1b2933 64%);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -362,13 +362,13 @@ a:-webkit-any-link {
 @media only screen and (max-width: 868px) {
 	#banner1{
 		background: 
-		url('../../assets/C_4_M.png'),
+		url('/assets/images/C_4_M.png'),
 		linear-gradient(180deg, #81147C 0%,  #1b2933 100%);
 		background-position: center top;
 	}
 
 	.wnarde{
-		background-image:  url('../../assets/about/wagverse_m.png') ;
+		background-image:  url('/assets/images/about/wagverse_m.png') ;
 		background-position: center top;
 		background-repeat:no-repeat;
 		background-color: #1b2933;

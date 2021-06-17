@@ -6,7 +6,7 @@
 }
 #banner1post{
 	background:
-	url(/assets/images/banners/C_4.png),
+	url(..//assets/images/banners/C_4.png),
 	linear-gradient(180deg, rgba(252,249,247,1) 0%, rgba(208,147,205,0.6) 20%, rgba(252,249,247,1) 64%);
 	background-repeat: no-repeat;
 	background-position: center top;

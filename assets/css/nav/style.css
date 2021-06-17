@@ -1,0 +1,51 @@
+.back-nav a{
+	color: #fff;
+}
+.back-nav h3{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #939393;
+}
+.back-nav{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	background: rgba(29, 38, 45, 0);
+	color: #fff;
+	display:none;
+	overflow: auto;
+	border: 2px solid #1D262D;
+}
+@media only screen and (max-width: 868px) {
+	/*hidden desktop*/
+	.dk{
+		display:none;
+	}
+	.links-count{
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 20px;
+		text-align: right;
+		text-transform: uppercase;
+		color: #939393;
+	}
+	.icon-fix{
+		color: transparent;
+		font-size: 35px;
+	}
+	#logo{
+		border-radius: 2px;
+	}
+	.icon-prev{
+		display:none;
+	}
+}

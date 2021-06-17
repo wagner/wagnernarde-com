@@ -349,7 +349,7 @@ main a:-webkit-any-link , footer a:-webkit-any-link{
 		color: #292929;
 	}
 	.post-ul li{
-		list-style-image: url('../../../assets/posts/list.png');
+		list-style-image: url('/assets/images/posts/list.png');
 	}
 	.footer-post > section > div > div:nth-child(1){
 		border-bottom: 0.5px dashed #1D262D;
