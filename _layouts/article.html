@@ -1,0 +1,28 @@
+<html>
+  {% include head.html %}
+
+  <body class="{{ page.body }}">
+    {% include header.html %}
+
+    <main>
+      <div class="tleft dk pointer">
+        <span class="icon pointer icon-prev" ></span>
+      </div>
+      
+      <div class="row banner-content">
+      </div>
+      
+      <div class="tright dk pointer">
+        <span class="icon pointer icon-prev" ></span>
+      </div>
+      
+      <section class="post-content">
+        <div id="post" class="post-body">
+          {{ content }}
+        </div>
+      </section>
+    </main>
+    
+    {% include footer.html %}
+  </body>
+</html>
