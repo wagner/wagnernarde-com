@@ -19,6 +19,7 @@ const create = {
 		bannerContent.style.width = '200%'
 		var banner = create.one(0, false)
 		bannerContent.append(banner)
+		document.body.className = `banner0`
 		movement.init()
 	},
 	one: function (pos, isPrevious) {
