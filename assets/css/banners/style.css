@@ -3,16 +3,6 @@
 .tright{
 	transform: rotate(180deg);
 }
-.tleft:hover{
-	transform: scale(1.2);
-	transform: rotate(360deg);
-	transition-duration: 0.5s;
-}
-.tright:hover{
-	transform: scale(1.2);
-	transform: rotate(-180deg);
-	transition-duration: 0.5s;
-}
 .home-text{
 	font-family: Charter;
 	font-style: normal;
