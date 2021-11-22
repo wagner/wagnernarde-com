@@ -1,5 +1,6 @@
 .about{
-	background-image:  url('/about/images/background.jpg') ;
+	background-image:  url('/about/images/background.png');
+	background-size: 700px;
 	background-position: center top;
 	background-repeat:no-repeat;
 	background-color: #FBFFF1;
@@ -23,7 +24,7 @@
 		display:none;
 	}
 	.about{
-		background-image:  url('/about/images/background.jpg') ;
+		background-image:  url('/about/images/background_m.png') ;
 		background-position: center top;
 		background-repeat:no-repeat;
 		background-size: contain;
