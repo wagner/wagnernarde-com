@@ -1,5 +1,5 @@
 .about{
-	background-image:  url('/assets/images/about/wagverse.png') ;
+	background-image:  url('/about/images/background.jpg') ;
 	background-position: center top;
 	background-repeat:no-repeat;
 	background-color: #FBFFF1;
@@ -23,7 +23,7 @@
 		display:none;
 	}
 	.about{
-		background-image:  url('/assets/images/about/wagverse_m.png') ;
+		background-image:  url('/about/images/background.jpg') ;
 		background-position: center top;
 		background-repeat:no-repeat;
 		background-size: contain;
