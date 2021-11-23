@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #FCF9F7;
+}
+#logo{
+	cursor: pointer;
+}
+.scroll-h-block{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+.slin{
+	font-weight: 400 !important;
+}
+.bold{
+	font-weight: 700;
+}
+.auto{
+	margin: auto;
+}
+.auto-l{
+	margin-left: auto;
+}
+.up{
+	text-transform: uppercase;
+}
+.p20{
+	padding: 20px;
+}
+.text-home{
+	cursor: pointer;
+}
+.pointer{
+	cursor: pointer;
+}
+.icon{
+	display: block;
+	font-size: 35px;
+	width: 51px;
+	text-align: center;
+}
+.icon-day{
+	left: 111px;
+	display: block;
+}
+.icon-night{
+	left: 111px;
+	display: none;
+}
+.go-back{
+	display: none;
+}
+.go-home{
+	display: none;
+}
+.show-back{
+	display: block;
+}
+.top-menu span{
+	top:27px;
+	position:fixed;
+}
+
+.banner-text{
+	font-weight: normal;
+}
+.banner-text span{
+	font-weight: bold;
+}
+.img_perfil_mol{
+	position: relative;
+	right: 152px;
+	bottom: 30px;
+}
+.post-content{
+	margin-top: 680px;
+}
+.title-row {
+	margin: 74px 0 0 0;
+}
+.title-row img{
+	margin: 28px 0 0 0;
+}
+
+@media only screen and (max-width: 868px) {
+	/*hidden desktop*/
+	.dk{
+		display:none;
+	}
+}
+@media only screen and (min-width: 869px) {
+	/*hidden mobile*/
+	.mb{
+		display:none;
+	}
+}

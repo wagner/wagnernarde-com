@@ -1,0 +1,374 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+/*utils flex*/
+.expance{
+	flex:1;
+}
+.column{
+	flex-direction: column;
+}
+.f1{
+	flex: 1;
+}
+.f2{
+	flex: 2;
+}
+.row{
+	display: flex;
+}
+.center{
+	align-items: center;
+}
+.space-around {
+	justify-content: space-around;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+/*footer*/
+.footer-row {
+	display: flex;
+	justify-content: flex-start;
+}
+.footer-end{
+	flex: 1;
+	padding:8px 0 8px 8px;
+	align-items: center;
+	justify-content: flex-end;
+}
+/*post*/
+.post-body{
+	width: 700px;
+	margin: auto;
+}
+.home-text{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.post-date{
+	display: flex;
+	margin-top: 20px;
+}
+.post-date div{
+	margin-right: 30px;
+}
+.post-ul li{
+	padding-left: 24px;
+	margin:30px 0;
+}
+.final-link{
+	align-items: stretch;
+}
+/*cards*/
+.job-title{
+	padding: 7px 16px;
+}
+.job-card{
+	margin: 44px 0;
+}
+/*imgs*/
+.img-note > p{
+	display: flex;
+	justify-content: center;
+}
+.post-img{
+	display: flex;
+	justify-content: center;
+	margin: 44px;
+}
+.perfil-img{
+	margin-top:40px;
+	justify-content: center;
+}
+.imgs-about{
+	justify-content: space-between;
+	margin: 20px 0;
+}
+.imgs-about img, .imgs-smart img{
+	height: 100%;
+	width: auto;
+}
+.imgs-smart{
+	justify-content: flex-end;
+	margin: 20px 0;
+}
+.imgs-smart img{
+	position: relative;
+	bottom: 20px;
+	right: 20px;
+}
+.imgs-smart .smart-stars{
+	position: relative;
+	top: 34px;
+	left: 44px;
+	z-index: -1;
+}
+/*playes*/
+.audio-div{
+	height: 99px;
+}
+.player{
+	align-items: center;
+}
+.audio-div img{
+	cursor: pointer;
+}
+.audio-div .player{
+	display: flex;
+	padding: 12px;
+	justify-content: space-between;
+}
+.info p{
+	margin: 0;
+}
+.audio-div .info{
+	padding: 12px;
+	display: flex;
+	justify-content: space-between;
+}
+.media-bar{
+	margin-top: 2px;
+	width: 80%;
+	height: 5px;
+}
+.media-bar span{
+	padding: 1px 9px;
+	position: relative;
+	bottom:6px;
+	left:4px;
+}
+.footer-post-end{
+	justify-content: flex-end;
+}
+.about-podcast{
+	display:flex;
+	justify-content: space-around;
+	margin: 42px 20px;
+}
+.about-podcast img{
+	height: 100%;
+	width: auto;
+}
+.about-podcast div{
+	display: flex;
+	flex-direction: column;
+}
+.about-podcast p{
+	margin: 6px 0 0 0;
+}
+@media only screen and (max-width: 868px) {
+	/*hidden desktop*/
+	.dk{
+		display:none;
+	}
+	.footer-row {
+		display: flex;
+		flex-direction:column;
+		justify-content: flex-start;
+	}
+	.footer-end{
+		flex: 1;
+		padding:8px 0;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.setas-mobile{
+		display: flex;
+		justify-content: space-around;
+	}
+	.setas-mobile > div:nth-child(2){
+		transform: rotate(180deg);
+	}
+	.post-date{
+		display: flex;
+	}
+	.post-date div{
+		margin-right: 30px;
+	}
+	.post-date p{
+		margin-left: 5px;
+	}
+	.post-img{
+		display: flex;
+		justify-content: center;
+		margin: 44px 0;
+	}
+	.post-img img{
+		width: 100%;
+		height: auto;
+	}
+	.perfil-img{
+		margin-top:40px;
+		justify-content: center;
+	}
+	/*brain*/
+	.post-ul{
+		margin-left: 19px;
+	}
+	.post-ul li{
+		padding-left: 14px;
+		margin:30px 0;
+	}
+	.footer-post > p{
+		margin-top: 30px;
+	}
+	.footer-post > section > div > div{
+		padding: 6px 0;
+	}
+	.footer-post-end{
+		margin: 0;
+		flex: 1;
+	}
+	.footer-post-end p{
+		margin: 0;
+	}
+	.footer-post-end{
+		justify-content: space-between;
+	}
+	.footer-post-type p{
+		margin: 0;
+	}
+	.footer-post-links a{
+		margin: 0 0 0 12px;
+	}
+	.footer-post-time p {
+		margin: 0;
+	}
+	.footer-post-time{
+		flex: 1;
+		justify-content: space-between;
+		margin: 0 0 0 12px;
+	}
+	.footer-post span{
+		margin:0;
+	}
+	.post-body{
+		width: 100%;
+		margin: auto;
+	}
+	.post-top-banner {
+		position: absolute;
+		right: 153px;
+		top: 0;
+		z-index: -1;
+		width: 100%;
+	}
+	#top-timezone-post .pos1{
+		position: relative;
+		right: 613px;
+		top: 1px;
+	}
+	#top-timezone-post .pos2{
+		position: relative;
+		right: 1232;
+		top: 8px;
+	}
+	#top-timezone-post .pos3{
+		position: relative;
+		right: 1860px;
+		top: 28px;
+		width: auto;
+		height: 100%;
+	}
+	#top-timezone-post .pos4{
+		position: relative;
+		right: 2085px;
+		top: 133px;
+		width: auto;
+		height: 100%;
+	}
+	#top-gatlin-post .pos1{
+		position: relative;
+		right: 613px;
+		top: 1px;
+	}
+	#top-gatlin-post .pos2{
+		position: relative;
+		right: 1232;
+		top: 8px;
+	}
+	#top-gatlin-post .pos3{
+		position: relative;
+		right: 1860px;
+		top: 28px;
+		width: auto;
+		height: 100%;
+	}
+	#top-gatlin-post .pos4{
+		position: relative;
+		right: 2085px;
+		bottom: 203px;
+		width: auto;
+		height: 100%;
+	}
+	.post-content{
+		margin: 540px 20px 0 20px;
+	}
+	.about-social{
+		display: flex;
+		padding: 0 10% 0 0;
+		justify-content: flex-end;
+	}
+	.about-social i{
+		margin-left: 32px;
+	}
+	.about .post-content{
+		margin-top: 224px;
+	}
+	/*job-card*/
+	.job-card > p{
+		margin-top: 30px;
+	}
+	.job-card > section > div > div{
+		padding: 6px 0;
+	}
+	.job-card-imgs{
+		display: flex;
+		justify-content: flex-end;
+	}
+	.job-card-title{
+		flex: 1;
+		margin: 0 0 0 16px;
+	}
+	.job-card-links a{
+		margin: 0 0 0 12px;
+	}
+	.job-title{
+		padding: 7px 16px;
+	}
+	.job-card{
+		margin: 30px 0;
+	}
+	.imgs-about{
+		justify-content: space-between;
+		margin: 20px 0;
+	}
+	.info p{
+		margin: 0;
+	}
+	.about-podcast{
+		display:flex;
+		justify-content: space-around;
+		margin: 42px 20px;
+	}
+	.about-podcast img{
+		height: 100%;
+		width: auto;
+	}
+	.about-podcast div{
+		display: flex;
+		flex-direction: column;
+	}
+	.about-podcast p{
+		margin: 6px 0 0 0;
+	}
+	.footer-start{
+		padding:8px 0;
+		justify-content: space-between;
+	}
+}

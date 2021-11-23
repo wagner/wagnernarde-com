@@ -1,0 +1,47 @@
+.tleft{
+}
+.tright{
+	transform: rotate(180deg);
+}
+.home-text{
+	font-family: Charter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 88px;
+	line-height: 107px;
+	color: #EE7B52;
+}
+.home-text span {
+	font-family: Charter;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 88px;
+	line-height: 107px;
+	color: #FFC1AB;
+}
+.text-b0 img{
+	opacity: 0;
+}
+#banner0 .img-text{
+	opacity: 1;
+}
+@media only screen and (max-width: 868px) {
+	/*hidden desktop*/
+	.dk{
+		display:none;
+	}
+	.home-text span {
+		font-family: Charter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 44px;
+		line-height: 107px;
+		color: #FFC1AB;
+	}
+	.banner-img{
+		width:-webkit-fill-available;
+	}
+	.text-ba img{
+		opacity:0;
+	}
+}

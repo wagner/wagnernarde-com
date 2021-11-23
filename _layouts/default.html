@@ -1,0 +1,16 @@
+<html>
+  {% include head.html %}
+
+  <body class="{{ page.body }}">
+    {% include header.html %}
+
+    <main>
+      <section class="post-content">
+        <div id="post" class="post-body">
+          {{ content }}
+        </div>
+      </section>
+    </main>
+
+  </body>
+</html>

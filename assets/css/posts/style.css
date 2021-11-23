@@ -1,0 +1,459 @@
+body{
+	background: linear-gradient(180deg, #FBFFF1 0%, #E0E4E6 10.46%, #7c7bbab0 43%, #fbfff100 100%)N;
+	background-repeat: no-repeat;
+}
+header{
+	z-index: 8;
+}
+footer{
+	z-index: 9;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 0.9em;
+	line-height: 20px;
+	text-transform: uppercase;
+	margin: auto;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	color: #1D262D;
+}
+h5{
+	margin-top:30px;
+	font-family: Georgia;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 150.6%;
+	color: #DC3900;
+}
+footer section {
+	border: 1px solid #1D262D;
+	box-sizing: border-box;
+	border-radius: 2px;
+	margin: 20px;
+}
+.footer-post{
+	border: 1px solid #1D262D;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.links-count{
+	margin-left: auto;
+	margin-right: 95px;
+	font-weight: normal;
+	font-size: 15px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #939393;
+}
+.icon-fix{
+	color: transparent;
+	width: 51px;
+	font-size: 35px;
+}
+#logo{
+	z-index: 5;
+	border-radius: 2px;
+}
+#logo h1{
+	font-family: Kadwa;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	color: #F6FBED;
+	line-height: 50px;
+	text-transform: capitalize;
+}
+.footer-end a{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: right;
+	text-transform: uppercase;
+	padding: 0 8px;
+	color: #1D262D;
+}
+.footer-time{
+	border-right:0.5px dashed #1D262D;
+	font-weight: 400;
+}
+.footer-hour span{
+	font-weight: normal;
+	font-size: 26px;
+	line-height: 20px;
+	text-transform: uppercase;
+
+}
+.post-type{
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #1D262D;
+}
+
+
+.p-about{
+	font-family: Georgia;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 21px;
+	line-height: 150.6%;
+	color: #292929;
+	margin-bottom: 70px
+}
+
+.cl-effect-5 li{
+	display:inline-flex;
+	padding: 0 4;
+}
+.cl-effect-5 a {
+	overflow: hidden;
+	padding: 0 4px;
+}
+
+.cl-effect-5 a span {
+	position: relative;
+	display: inline-block;
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.cl-effect-5 a span::before {
+	position: absolute;
+	top: 100%;
+	content: attr(data-hover);
+	font-weight: 700;
+	-webkit-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.cl-effect-5 a:hover span,
+.cl-effect-5 a:focus span {
+	-webkit-transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+main a:-webkit-any-link , footer a:-webkit-any-link{
+	color:#1D262D;
+}
+/*job-card*/
+.job-card{
+	border: 1px solid #1D262D;
+	box-sizing: border-box;
+	border-radius: 2px;
+	font-family: Open Sans;
+	font-style: normal;
+}
+.job-card > p{
+	margin-top: 30px;
+}
+.job-card > section > div > div{
+	padding: 6px 0;
+}
+.multi-line{
+	border-bottom: 0.5px dashed #1D262D;
+	box-sizing: border-box;
+}
+.job-card-imgs{
+	display: flex;
+	justify-content: flex-end;
+}
+.job-card-title{
+	flex: 1;
+	margin: 0 0 0 16px;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #1D262D;
+}
+.job-card-links a{
+	margin: 0 0 0 12px;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #1D262D;
+}
+.job-card-info{
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #1D262D;
+	margin-left: 10px;
+}
+.about-social{
+	display: flex;
+	justify-content: flex-end;
+}
+.about-social i{
+	margin-left: 32px;
+	color: #DF753A;
+}
+/*footer*/
+.footer-post{
+	font-family: Open Sans;
+	font-style: normal;
+	margin-bottom: 20px;
+}
+.footer-post > p{
+	margin-top: 30px;
+}
+.footer-post > section > div > div{
+	padding: 6px 0;
+}
+.footer-post > section > div > div:nth-child(1){
+	border-bottom: 0.5px dashed #1D262D;
+	box-sizing: border-box;
+}
+.footer-post-middle, .footer-post-end{
+	flex: 1;
+	margin: 0;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #1D262D;
+}
+.footer-post-links a{
+	margin: 0 0 0 12px;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #1D262D;
+}
+.footer-post-time p{
+	margin: 0;
+}
+.footer-post-time{
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #1D262D;
+}
+.post-top-banner{
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: -1;
+	width: 100%;
+}
+.post-top-banner img{
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+#top-timezone-post .pos1{
+	position: relative;
+	right: 613px;
+	top: 1px;
+}
+#top-timezone-post .pos2{
+	position: relative;
+	right: 1232;
+	top: 8px;
+}
+#top-timezone-post .pos3{
+	position: relative;
+	right: 1860px;
+	top: 28px;
+	width: auto;
+	height: 100%;
+}
+#top-timezone-post .pos4{
+	position: relative;
+	right: 2085px;
+	top: 133px;
+	width: auto;
+	height: 100%;
+}
+#top-gatlin-post .pos1{
+	position: relative;
+	right: 613px;
+	top: 1px;
+}
+#top-gatlin-post .pos2{
+	position: relative;
+	right: 1232;
+	top: 8px;
+}
+#top-gatlin-post .pos3{
+	position: relative;
+	right: 1860px;
+	top: 28px;
+	width: auto;
+	height: 100%;
+}
+#top-gatlin-post .pos4{
+	position: relative;
+	right: 2085px;
+	bottom: 203px;
+	width: auto;
+	height: 100%;
+}
+.post-content{
+	z-index: 1;
+}
+.about{
+	background-position: center top;
+	background-repeat:no-repeat;
+	background-color: #FBFFF1;
+}
+.about-podcast span{
+	font-size: 49px;
+}
+.about-podcast p{
+	text-align:center;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: #1D262D;
+}
+@media only screen and (max-width: 868px) {
+	/*hidden desktop*/
+	.dk{
+		display:none;
+	}
+	.setas-mobile > div:nth-child(2){
+		transform: rotate(180deg);
+	}
+	.post-date{
+		font-family: Georgia;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		line-height: 41px;
+		color: #5C5C5C;
+	}
+	/*brain*/
+	.post-ul{
+		font-family: Georgia;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 21px;
+		line-height: 32px;
+		color: #292929;
+	}
+	.post-ul li{
+		list-style-image: url('/assets/images/posts/list.png');
+	}
+	.footer-post > section > div > div:nth-child(1){
+		border-bottom: 0.5px dashed #1D262D;
+		box-sizing: border-box;
+	}
+	.footer-post-end p{
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 0.9em;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: #1D262D;
+	}
+	.footer-post-type p{
+		font-family: Open Sans;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 15px;
+	}
+	.footer-post-links a{
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 20px;
+		text-align: right;
+		text-transform: uppercase;
+		color: #1D262D;
+	}
+	.footer-post-time p {
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: #1D262D;
+	}
+	.footer-post{
+		border: 1px solid #1D262D;
+		box-sizing: border-box;
+		border-radius: 2px;
+	}
+	.about-social i{
+		color: #DF753A;
+	}
+	/*job-card*/
+	.job-card{
+		border: 1px solid #1D262D;
+		box-sizing: border-box;
+		border-radius: 2px;
+		font-family: Open Sans;
+		font-style: normal;
+	}
+	.multi-line{
+		border-bottom: 0.5px dashed #1D262D;
+		box-sizing: border-box;
+	}
+	.job-card-title{
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: #1D262D;
+	}
+	.job-card-links a{
+		font-weight: bold;
+		font-size: 15px;
+		line-height: 20px;
+		text-align: right;
+		text-transform: uppercase;
+		color: #1D262D;
+	}
+	.job-card-info{
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: #1D262D;
+	}
+	.about-podcast span{
+		font-size: 49px;
+	}
+	.about-podcast p{
+		text-align:center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 11px;
+		line-height: 15px;
+		text-transform: uppercase;
+		color: #1D262D;
+	}
+	.footer-start{
+		border-bottom:0.5px dashed #1D262D;
+	}
+	.go-back-mb{
+		transform: rotate(90deg);
+		display:none;
+	}
+	.go-home-mb{
+		transform: rotate(90deg);
+		display:none;
+	}
+}
