@@ -318,7 +318,7 @@ body{
 		margin-left: 32px;
 	}
 	.about .post-content{
-		margin-top: 224px;
+		margin-top: calc(66vw - 90px);
 	}
 	/*job-card*/
 	.job-card > p{
