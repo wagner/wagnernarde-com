@@ -162,8 +162,7 @@ main a:-webkit-any-link , footer a:-webkit-any-link{
 	box-sizing: border-box;
 }
 .job-card-imgs{
-	display: flex;
-	justify-content: flex-end;
+	text-align: right;
 }
 .job-card-title{
 	flex: 1;
